@@ -74,9 +74,9 @@
                         .buttonStyle {
 
                             font-size: 18px !important;
-                            position: relative !important;
-                            top: 3.3em !important;
-                            left: -1em !important;
+                            position: absolute !important;
+                            top: 16em !important;
+                            left: -0.2em !important;
                         }
     }
   
@@ -120,13 +120,14 @@ max-width: 400px;
 .buttonStyle {
 
     padding: 35px !important;
-    margin-top: 14em;
+    margin-top: 5em;
     width: 100%;
    background-color: black !important;
     border: 2px solid white;
     border-radius: 20px !important;
     font-weight: 900;
     text-shadow: 2px 2px 2px orange;
+    display: block !important;
 }
 
 .buttonStyle:hover {
@@ -142,12 +143,11 @@ max-width: 400px;
     min-width: 100%;
     max-width: 100%;
     height: auto;
-    min-height: 10vh;
-    max-height: 10vh;
+ 
 }
 
 .resultStyle {  
-    display: block;
+    display: block !important;
     color: black;
     font-size: 15px;
     width: 100%;
