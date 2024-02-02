@@ -1,0 +1,157 @@
+.containerStyle {
+
+
+    display: flex;
+    justify-content: right;
+    margin-top: 6em;
+    margin-right: 3em;
+    align-items: end;
+}   
+
+@media only screen and (max-width: 400px) {
+    body {
+  background-color: black !important;
+  background: black !important;
+    }
+    .menuStyle {
+       position: absolute;
+       left: -0em;
+       bottom: 0.1em;
+       border-radius: 0px !important;
+        width: auto;
+        background: url("/img/wallpaper.png") !important;
+        background-repeat: no-repeat !important;
+        background-position-y:0% !important ;
+        background-position-x: -30% !important ;
+        background-size: 100% !important;
+        min-width: 400px !important;
+        max-width: 400px !important;
+
+            height: auto;
+            min-height: 100% !important;
+            max-height:  100% !important;
+
+    }
+            .buttonStyle {
+
+                position: relative !important;
+                top: 12em !important;
+                right: 1.2em !important;                padding: 90px !important;
+                width: auto;
+                max-width: 400px !important;
+                min-width: 400px !important;
+                height: auto;
+                min-height: 30vh;
+                max-height: 30vh;
+
+                        }
+
+
+                        .createdAtStyle {
+
+                            font-size: 22px !important;
+                            color: orange !important;
+                            text-shadow: 2px 2px 2px black;
+
+                        }
+
+                        .resultStyle {
+                            font-size: 24px !important;
+                            color: orange !important;
+                            text-shadow: 2px 2px 2px black;
+                           position: relative;
+                           top: -0.3em !important;
+                           font-size: 20px !important;
+
+                        }
+
+                        .title {
+
+                            text-shadow: 2px 2px 2px orange !important;
+
+                        }
+
+                        .buttonStyle {
+
+                            font-size: 18px !important;
+                            position: relative !important;
+                            top: 3.3em !important;
+                            left: -1em !important;
+                        }
+    }
+  
+
+.menuStyle {
+
+    border: 2px solid orange;
+    padding: 15px;
+border-radius: 40px;
+background: linear-gradient(orange 60%,white);
+height: auto;
+width: AUTO;
+min-width: 400px;
+max-width: 400px;
+}
+
+.title {
+    border-bottom: 2px solid white;
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px black;
+}
+
+.createdAtStyle {
+
+    margin-top: 1em;
+    text-shadow: 2px 2px 2px white;
+
+}
+
+.resultStyle {
+
+    font-size: 15px;
+    width: auto;
+    margin-top: 2em;
+    text-shadow: 2px 2px 2px white;
+ 
+}
+
+.buttonStyle {
+
+    padding: 35px !important;
+    margin-top: 14em;
+    width: 100%;
+   background-color: black !important;
+    border: 2px solid white;
+    border-radius: 20px !important;
+    font-weight: 900;
+    text-shadow: 2px 2px 2px orange;
+}
+
+.buttonStyle:hover {
+
+    background-color: orange !important;
+    color: black !important;
+
+}
+
+.resultMenuStyle {
+
+    width: AUTO;
+    min-width: 100%;
+    max-width: 100%;
+    height: auto;
+    min-height: 10vh;
+    max-height: 10vh;
+}
+
+.resultStyle {  
+    display: block;
+    color: black;
+    font-size: 15px;
+    width: 100%;
+
+   
+
+}
